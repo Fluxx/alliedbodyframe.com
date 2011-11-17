@@ -1,2 +1,2 @@
-use Rack::Static, :urls => { "/" => "index.html" }
-run Rack::Directory.new(".")
+use Rack::Static , :urls => { "/" => "index.html" }
+run Rack::URLMap.new("/" => Rack::Directory.new("."))
