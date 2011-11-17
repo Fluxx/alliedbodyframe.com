@@ -14,9 +14,9 @@
 			<h1><a href="/" id="logo"><span>Allied Body &amp; Frame</span></a></h1>
 			<ul id="navigation">
 				<li id="home-tab"><a href="/">Home</a></li>
-				<li id="about-tab"><a href="/about">About</a></li>
-				<li id="work-tab"><a href="/work">Our Work</a></li>
-				<li id="contact-tab"><a href="/contact">Contact</a></li>
+				<li id="about-tab"><a href="/about.html">About</a></li>
+				<li id="work-tab"><a href="/work.html">Our Work</a></li>
+				<li id="contact-tab"><a href="/contact.html">Contact</a></li>
 			</ul>
 		</div>
 		
@@ -55,9 +55,9 @@
 		
 			<ul>
 				<li><a href="/">Home</a></li>
-				<li><a href="/about">About</a></li>
-				<li><a href="/work">Our Work</a></li>
-				<li><a href="/contact">Contact</a></li>
+				<li><a href="/about.html">About</a></li>
+				<li><a href="/work.html">Our Work</a></li>
+				<li><a href="/contact.html">Contact</a></li>
 			</ul>
 			
 			<h2>Allied Body &amp; Frame</h2>
