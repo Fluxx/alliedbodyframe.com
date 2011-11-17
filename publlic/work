@@ -1,0 +1,193 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<link rel="stylesheet" type="text/css" href="/css/reset.css" />	<link rel="stylesheet" type="text/css" href="/css/default.css" />	<title>Allied Body &amp; Frame :: Our Work, Before and After :: Berkeley, CA</title>
+</head>
+
+
+<body id="work">
+	
+	<div id="wrapper">
+
+		<div id="header">
+			<h1><a href="/" id="logo"><span>Allied Body &amp; Frame</span></a></h1>
+			<ul id="navigation">
+				<li id="home-tab"><a href="/">Home</a></li>
+				<li id="about-tab"><a href="/about">About</a></li>
+				<li id="work-tab"><a href="/work">Our Work</a></li>
+				<li id="contact-tab"><a href="/contact">Contact</a></li>
+			</ul>
+		</div>
+		
+		
+		<div id="content" class="clearfix">
+			
+			
+<h1>Our Work</h1>
+
+<div class="polaroids">
+	<p>
+		<img src="/img/before_and_after/before_honda_1.jpg" alt="" /><br />
+		Honda &mdash; Left rear damage
+	</p>
+	<p>
+		<img src="/img/before_and_after/before_honda_2.jpg" alt="" /><br />
+		Honda &mdash; Deployed airbag
+	</p>
+	<p>
+		<img src="/img/before_and_after/before_honda_3.jpg" alt="" /><br />
+		Honda &mdash; Frame machine
+	</p>
+</div>
+
+<div class="polaroids">
+	<p>
+		<img src="/img/before_and_after/after_honda_1.jpg" alt="" /><br />
+		Honda &mdash After
+	</p>
+</div>
+
+<div class="polaroids">
+	<p>
+		<img src="/img/before_and_after/before_mazda_1.jpg" alt="" /><br />
+		Mazda &mdash Before
+	</p>
+</div>
+
+<div class="polaroids">
+	<p>
+		<img src="/img/before_and_after/after_mazda_1.jpg" alt="" /><br />
+		Mazda &mdash After
+	</p>
+</div>
+
+<div class="polaroids">
+	<p>
+		<img src="/img/before_and_after/before_bmw_3.jpg" alt="" /><br />
+		BMW 740iL &ndash; Right front view
+	</p>
+	<p>
+		<img src="/img/before_and_after/before_bmw_4.jpg" alt="" /><br />
+		BMW 740iL &ndash; Left front view
+	</p>
+</div>
+
+<div class="polaroids">
+	<p>
+		<img src="/img/before_and_after/after_bmw_1.jpg" alt="" /><br />
+		BMW 740iL &ndash; After
+	</p>
+	<p>
+		<img src="/img/before_and_after/after_bmw_2.jpg" alt="" /><br />
+		BMW 740iL &ndash; After
+	</p>
+</div>
+
+<div class="polaroids">
+	<p>
+		<img src="/img/before_and_after/accord_before.jpg" alt="" /><br />
+		Honda Accord &ndash; Before
+	</p>
+	<p>
+		<img src="/img/before_and_after/accord_before2.jpg" alt="" /><br />
+		Honda Accord &ndash; Before
+	</p>
+</div>
+
+<div class="polaroids">
+	<p>
+		<img src="/img/before_and_after/accord_after.jpg" alt="" /><br />
+		Honda Accord &ndash; After
+	</p>
+	<p>
+		<img src="/img/before_and_after/accord_after2.jpg" alt="" /><br />
+		Honda Accord &ndash; After
+	</p>
+</div>
+
+<div class="polaroids">
+	<p>
+		<img src="/img/before_and_after/merc1.jpg" alt="" /><br />
+		Mercedes
+	</p>
+	<p>
+		<img src="/img/before_and_after/merc2.jpg" alt="" /><br />
+		Mercedes
+	</p>
+</div>
+
+<div class="polaroids">
+	<p>
+		<img src="/img/before_and_after/merc3.jpg" alt="" /><br />
+		Mercedes
+	</p>
+	<p>
+		<img src="/img/before_and_after/porche_before_1.jpg" alt="" /><br />
+		Porche Before
+	</p>
+</div>
+
+<div class="polaroids">
+	<p>
+		<img src="/img/before_and_after/porche_after_1.jpg" alt="" /><br />
+		Porche After
+	</p>
+	<p>
+		<img src="/img/before_and_after/porche_after_2.jpg" alt="" /><br />
+		Porche After
+	</p>
+</div>
+
+<div class="polaroids">
+	<p>
+		<img src="/img/technician.jpg" alt="" /><br />
+		Dave, lead technician replacing body panel utilizing computer spot welder
+	</p>
+	<p>
+		<img src="/img/before_and_after/dave.jpg" alt="" /><br />
+		Dave, Allied's lead technician, working on the Honda
+	</p>
+</div>
+
+<div class="polaroids">
+	<p>
+		<img src="/img/before_and_after/before_6_1.jpg" alt="" /><br />
+		Mazda 6 &ndash; Before
+	</p>
+	<p>
+		<img src="/img/before_and_after/after_6_1.jpg" alt="" /><br />
+		Mazda 6 &ndash; After
+	</p>
+</div>			
+		</div>
+	</div>
+	
+	<div id="footer">
+	
+		<div id="container" class="clearfix">
+		
+			<ul>
+				<li><a href="/">Home</a></li>
+				<li><a href="/about">About</a></li>
+				<li><a href="/work">Our Work</a></li>
+				<li><a href="/contact">Contact</a></li>
+			</ul>
+			
+			<h2>Allied Body &amp; Frame</h2>
+			<p class="address">
+				1375 San Pablo Avenue<br />
+				Berkeley, Ca 94702
+			</p>
+			
+			<p>(510) 525-3542</p>
+			
+			<p id="authors"><a href="http://gluei.com">Web Design and Development by GLUEinteractive &raquo;</a></p>
+			
+		</div>
+	
+	</div>
+
+</body>
+
+</html><!-- 0.052s -->
