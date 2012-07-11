@@ -4,14 +4,14 @@
 
 body {
 	background: #FFF url(images/header_bg.gif) repeat-x top;
-	font-family: "Trebuchet MS", Verdana, sans-serif;
+	font-family: 'Signika', sans-serif;
 	font-size: small;
 }
 
 strong { font-weight: bold; }
 
 h1 { font-size: 300% }
-h2 { font-size: 190% }
+h2 { font-size: 190%; border-bottom: 1px solid #DDD; }
 h3 { font-size: 175% }
 h4 { font-size: 150% }
 h5 { font-size: 120% }
@@ -26,7 +26,29 @@ h2 { color: #39445D; }
 
 a { color: #2A54A9; font-weight: bold; border-bottom: solid 1px #EFEFEF; text-decoration: none  }
 	
-	a:hover { border-color: #2A54A9; }
+a:hover { border-color: #2A54A9; }
+
+a.button {
+	color: white;
+	background-image: linear-gradient(top, rgb(108,148,55) 14%, rgb(66,112,22) 57%);
+	background-image: -o-linear-gradient(top, rgb(108,148,55) 14%, rgb(66,112,22) 57%);
+	background-image: -moz-linear-gradient(top, rgb(108,148,55) 14%, rgb(66,112,22) 57%);
+	background-image: -webkit-linear-gradient(top, rgb(108,148,55) 14%, rgb(66,112,22) 57%);
+	background-image: -ms-linear-gradient(top, rgb(108,148,55) 14%, rgb(66,112,22) 57%);
+
+	background-image: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(0.14, rgb(108,148,55)),
+		color-stop(0.57, rgb(66,112,22))
+	);
+	border-right: 2px solid #EFEFEF;
+	border-bottom: 2px solid #EFEFEF;
+	font-size: 150%;
+	padding: 8px 15px;
+	border-radius: 8px;
+}
 
 /*-------------------------------------------    
     Page Layout
@@ -50,6 +72,10 @@ a { color: #2A54A9; font-weight: bold; border-bottom: solid 1px #EFEFEF; text-de
 	background: #1d305b url(images/footer_bg.gif) repeat-x top;
 	color: #FFF;
 	padding: 2em;
+}
+
+#footer h2 {
+	border: none;
 }
 
 a#logo {
@@ -86,7 +112,7 @@ a#logo {
     Global Page Styling
 -------------------------------------------*/	
 
-#content p { margin: 1em 0; line-height: 1.7 }
+#content p { margin: 1em 0; line-height: 1.5 }
 
 #content img { margin: 1em 0 1em 1em; float: right; }
 
@@ -141,29 +167,39 @@ body#contact #contact-tab a
     Content
 -------------------------------------------*/
 
-.abstract {
-	padding: 0em 1.5em;
-	border-bottom: solid 1px #D4D4D4;
-	margin-bottom: 2em;
-	color: #4D3636;
-	background: transparent url(images/abstract_bg.gif) repeat-x bottom;
+.abstract p { 
+	font-size: 140%;
 }
 
-.abstract p { 
-	font-size: 160%;
-	line-height: 1.3 !important;
-	font-style: italic;
-	margin-top: .5em !important;
+.abstract em {
+	background-color: #FFFFCC;
+	padding: 0 4px;
 }
 
 .abstract h1 {
 	font-size: 350%;
 }
 
-#home-copy p { font-size: 110%; line-height: 1.8; }
+#home-copy blockquote + blockquote { margin-top: 1.5em;}
+#home-copy blockquote { border-left: 5px solid #EFEFEF; padding-left: 15px; }
 #home-copy h2 { font-size: 230%; color: #bd2025; }
 
-#home-copy img#shop { float: right; margin: 0 0 0 2em; }
+#home .additional { float: right; margin: 0 0 0 2em; }
+#home .additional img {
+	margin: 0 0 20px 0;
+	-moz-box-shadow: 4px 4px 12px #dddddd;
+	-webkit-box-shadow: 4px 4px 12px #DDD;
+	-o-box-shadow: 4px 4px 12px #dddddd;
+	box-shadow: 4px 4px 12px #DDD;
+	-moz-transform: rotate(-3deg);
+	-webkit-transform: rotate(-3deg);
+	-o-transform: rotate(-3deg);
+	-ms-transform: rotate(-3deg);
+	transform: rotate(-3deg);
+	border: 7px solid white;
+	border-bottom-width: 35px;
+}
+#home div#home-copy { float: left; width: 500px; }
 
 #map { float: right }
 
@@ -197,6 +233,23 @@ ul.notes {
 #work img { float: none; margin: 0 0 5px 0; }
 /*#work div.polaroids { clear: left }*/
 #work div.polaroids p { width: 300px; float: left; background: #EFEFEF; margin: 1em 4px; padding: 5px; font-size: 140%; text-align: center;}
+
+.logos {
+	float: right;
+	width: 200px;
+	text-align: center;
+}
+
+.logos img { display: block; display: block; float: left !important; padding: 15px 0;}
+
+#about .about {
+	padding-right: 250px;
+}
+
+#about #awards {
+	float: left;
+	width: 700px;
+}
 
 
 /*-------------------------------------------    
