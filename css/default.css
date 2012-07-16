@@ -125,18 +125,21 @@ a#logo {
 ul#navigation {
 	position: absolute;
 	right: 0px; bottom: 0px;
-	width: 500px;
+	width: 575px;
 	text-align: right;
 	font-size: 130%;
 	text-transform: uppercase;
 	color: #cfd2d6;
 }
 	ul#navigation li {
-		margin: 0px 5px;
-		float: left;
 		padding: 0px;
+		display: inline-block;
 		line-height: 1em;
 		background: #888aab url(images/tab_ur.gif) no-repeat top right;
+	}
+
+	ul#navigation li + li {
+		margin-left: 0px;
 	}
 	
 		ul#navigation li a {
@@ -154,26 +157,20 @@ ul#navigation {
 body#home #home-tab,
 body#about #about-tab,
 body#work #work-tab,
-body#contact #contact-tab 
+body#contact #contact-tab,
+body#testimonials #testimonials-tab
 { background: #FFF url(images/tab_c_ur.gif) no-repeat top right; }
 
 body#home #home-tab a,
 body#about #about-tab a,
 body#work #work-tab a,
-body#contact #contact-tab a
+body#contact #contact-tab a,
+body#testimonials #testimonials-tab a
 { background-image: url(images/tab_c_ul.gif) ; color: #1d305b}
 
 /*-------------------------------------------    
     Content
 -------------------------------------------*/
-
-.abstract {
-	padding: 0em 1.5em;
-	border-bottom: solid 1px #D4D4D4;
-	margin-bottom: 2em;
-	color: #4D3636;
-	background: transparent url(images/abstract_bg.gif) repeat-x bottom;
-}
 
 .abstract p {
 	font-size: 160%;
@@ -182,18 +179,27 @@ body#contact #contact-tab a
 	margin-top: .5em !important;
 }
 
-.abstract em {
-	background-color: #FFFFCC;
-	padding: 0 4px;
-}
 
 .abstract h1 {
 	font-size: 350%;
 }
 
+body#home .abstract em {
+	background-color: #FFFFCC;
+	padding: 0 4px;
+}
+
+body#home .abstract {
+	padding: 0em 1.5em;
+	border-bottom: solid 1px #D4D4D4;
+	margin-bottom: 2em;
+	color: #4D3636;
+	background: transparent url(images/abstract_bg.gif) repeat-x bottom;
+}
+
 #home-copy p { font-size: 110%; line-height: 1.8; }
-#home-copy blockquote + blockquote { margin-top: 1.5em;}
-#home-copy blockquote { border-left: 5px solid #EFEFEF; padding-left: 15px; }
+#content blockquote + blockquote { margin-top: 1.5em;}
+#content blockquote { border-left: 5px solid #EFEFEF; padding-left: 15px; }
 #home-copy h2 { font-size: 230%; color: #bd2025; border: none;}
 
 #home-copy img#shop { float: right; margin: 0 0 0 2em; }
@@ -247,6 +253,34 @@ ul.notes {
 #about #awards {
 	float: left;
 	width: 700px;
+}
+
+#yelp {
+	float: right;
+}
+
+body#testimonials em {
+	font-style: italic;
+}
+
+body#testimonials div.body {
+	float: left;
+	width: 700px;
+}
+
+body#testimonials div.body .byline {
+	padding-left: 30px;
+}
+
+body#testimonials div.body blockquote {
+	border-radius: 10px;
+	background: #EFEFEF;
+	border-right: 3px solid #D4D4D4;
+	border-bottom: 3px solid #D4D4D4;
+	padding: 20px 1em;
+	margin: 1.5em 0;
+	font-size: 120%;
+	color: #222;
 }
 
 
